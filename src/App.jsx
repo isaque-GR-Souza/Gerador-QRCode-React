@@ -24,7 +24,6 @@ function App() {
 return (
   <div className="App">
       <h1>Gerador de QR Code</h1>
-      <div className="btn">
       <input type="text" placeholder="Digite a URL do site." 
       value={url}
       onChange={(evt) => setUrl(evt.target.value)}/>
@@ -34,7 +33,6 @@ return (
         <a href={qrcode} download="qrcode.png">Download</a>
       </>}
     </div>
-      </div>
   )
 }
 
