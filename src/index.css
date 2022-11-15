@@ -28,10 +28,9 @@ input{
   width: 100%;
   max-width: 300px;
   padding: 0.5rem 1rem;
-  border-radius: 3rem 0 0 3rem;
+  border-radius: 3rem;
   margin-right: 1rem;
   background-color: #fff;
-  margin: 0;
 }
 button, a{
   appearance: none;
@@ -43,31 +42,7 @@ button, a{
   line-height: 1;
   text-decoration: none;
   cursor: pointer;
-}
-
-button{
-  appearance: none;
-  outline: none;
-  border: none;
-  background: none;
-  color: #2bcb4b;
-  font-size: 1.5rem;
-  line-height: 1;
-  text-decoration: none;
-  cursor: pointer;
-  background-color: #e3e2e2;
-  margin: 0;
-  padding: 4px;
-  border-radius: 0 3rem 3rem 0;
-  width: 200px;
-  height: 32px;
   transition: 0.5s all ease-out;
-}
-
-.btn{
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 button:hover{
